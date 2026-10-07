@@ -1,0 +1,19 @@
+{
+  "name": "clan-register-system",
+  "version": "1.0.0",
+  "description": "Sistema completo de registro e set para clãs de FiveM no Discord",
+  "private": true,
+  "scripts": {
+    "bot": "cd bot && npm start",
+    "bot:dev": "cd bot && npm run dev",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "install:all": "npm install && cd bot && npm install && cd ../backend && npm install && cd ../frontend && npm install",
+    "setup": "npm run install:all"
+  },
+  "keywords": ["discord", "fivem", "clan", "bot", "pvp"],
+  "author": "Clan System",
+  "license": "MIT"
+}
